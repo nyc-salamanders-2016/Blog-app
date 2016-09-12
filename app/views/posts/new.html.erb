@@ -1,0 +1,10 @@
+<div class="container">
+  <%= form_for @post do |f| %>
+    <%= f.text_field :title, class: 'title', placeholder: true %>
+  <br>
+    <%= f.text_area :body, class: 'body' %><br>
+
+
+    <%= f.submit %>
+  <% end %>
+</div>
